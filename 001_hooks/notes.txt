@@ -1,0 +1,3 @@
+Rules of Hooks:
+1. Don't call hooks inside loops,conditions,or nested functions.
+2. Only call hooks from react functions
