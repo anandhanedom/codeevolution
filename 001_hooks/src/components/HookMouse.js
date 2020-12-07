@@ -10,6 +10,7 @@ const HookMouse = () => {
     setY(e.clientY);
   };
 
+  //Didmount equivalent
   useEffect(() => {
     console.log('useEffect called!');
     window.addEventListener('mousemove', logMousePosition);
@@ -23,3 +24,6 @@ const HookMouse = () => {
 };
 
 export default HookMouse;
+
+
+
