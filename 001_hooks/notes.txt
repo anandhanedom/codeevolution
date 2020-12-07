@@ -9,3 +9,6 @@ useState:
 useEffect:
 1. Lets you perform side effects in functional components.
 2. Its a close replacement for componentWillMount,componentDidUpdate & componentWillUnmount.
+
+Context:
+1. Provides a way to pass data through the component tree without having to pass props down manually at every level.

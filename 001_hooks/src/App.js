@@ -12,23 +12,25 @@ import './App.css';
 // import ClassMouse from './components/ClassMouse';
 // import HookMouse from './components/HookMouse';
 // import MouseContainer from './components/MouseContainer';
-import IntervalClassCounter from './components/IntervalClassCounter';
-import IntervalHookCounter from './components/IntervalHookCounter';
+// import IntervalClassCounter from './components/IntervalClassCounter';
+// import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounter /> */}
-      {/* <HookCounter /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounterThree /> */}
-      {/* <HookCounterFour /> */}
-      {/* <ClassCounterOne /> */}
-      {/* <ClassMouse /> */}
-      {/* <HookMouse /> */}
-      {/* <MouseContainer /> */}
+      {/* <ClassCounter />
+      <HookCounter />
+      <HookCounterTwo />
+      <HookCounterThree />
+      <HookCounterFour />
+      <ClassCounterOne />
+      <ClassMouse />
+      <HookMouse />
+      <MouseContainer />
       <IntervalClassCounter />
-      <IntervalHookCounter />
+      <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   );
 }
