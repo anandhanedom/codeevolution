@@ -10,5 +10,19 @@ useEffect:
 1. Lets you perform side effects in functional components.
 2. Its a close replacement for componentWillMount,componentDidUpdate & componentWillUnmount.
 
-Context:
+useContext:
 1. Provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+useReducer:
+1. A hook for state management.
+2. Alternative to useState.
+3. useState is built using useReducer.
+4. useReducer(reducer,initialState)
+5. When to use? 
+
+
+HOOKS SO FAR:
+useState - state
+useEffect - side effects
+useContext - context API
+useReducer - reducer
