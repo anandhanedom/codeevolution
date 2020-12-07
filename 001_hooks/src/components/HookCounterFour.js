@@ -8,6 +8,7 @@ const HookCounterFour = () => {
       ...items,
       { id: items.length, value: Math.floor(Math.random() * 11) },
     ]);
+
   return (
     <div>
       <button onClick={addItem}>Add a number</button>
